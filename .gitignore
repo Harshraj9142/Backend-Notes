@@ -1,0 +1,72 @@
+# ============================
+# Node & JavaScript
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================
+# Build Output & Cache
+# ============================
+dist/
+build/
+.next/
+out/
+.cache/
+.next/cache/
+*.tsbuildinfo
+
+# ============================
+# Environment Variables
+# ============================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# ============================
+# Logs & Temporary Files
+# ============================
+*.log
+*.tmp
+*.temp
+*.swp
+
+# ============================
+# Testing & Coverage
+# ============================
+coverage/
+.nyc_output/
+
+# ============================
+# OS Specific Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# IDE & Editor Settings
+# ============================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ============================
+# Miscellaneous
+# ============================
+*.bak
+*.backup
+*.orig
